@@ -27,7 +27,7 @@ CREATE TABLE resume_entries (
 -- Seed: replace the hash below with the output of make_hash.php (see next step)
 INSERT INTO users (full_name, headline, summary, email, password) VALUES
 ('Your Name', 'CS Undergraduate', 'I love building web apps.',
- 'you@example.com', 'PASTE_HASH_HERE');
+ 'you@example.com', '$2y$12$nRLwirOEH7raIZsv86ui9.54agiA63T8OQNXP4uiUAJW6S2BL0Mju');
 
 INSERT INTO resume_entries (user_id, entry_type, title, organization, start_date, end_date, description) VALUES
 (1,'education','B.S. Intelligence Computing','Your University','2025-03-01',NULL,'Web, databases, AI.'),
